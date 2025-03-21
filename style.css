@@ -97,3 +97,53 @@ li a:hover{
     transform: translateY(60PX);
 
 }
+/* Our story start */
+#our-story{
+    height:100vh;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(Images/pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.title-style{
+    display: flex;
+    align-items: center;
+
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color:#fff;
+    transform: translateX(-100px);
+   
+}
+
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+
+.section-content p{
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+}
+/* Our story end */
+

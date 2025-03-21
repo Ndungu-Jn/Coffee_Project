@@ -147,3 +147,113 @@ li a:hover{
 }
 /* Our story end */
 
+/* Coffee start */
+.coffee-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.content-section p {
+    max-width: 500px;
+}
+
+
+.img-2{
+    width: 400px;
+    height:400px;
+}
+
+.title-two{
+    font-size: 3rem;
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+.content-section p {
+    max-width: 500px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color:#fff;
+
+}
+
+/* Coffee start End */
+.products{
+    margin-top: 5rem;
+
+}
+.title-three{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.card{
+    border: 2px solid var(--main-color);
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -60px;
+    
+}
+
+.img-one{
+    background: url(Images/1.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.img-two{
+    background: url(Images/2.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.img-three{
+    background: url(Images/3.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.card-title{
+    color:#fff;
+    font-family: sans-serif;
+    margin-top: 50px;
+
+}
+
+.card .items{
+    color: #fff;
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+/* Products End */

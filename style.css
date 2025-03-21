@@ -51,3 +51,49 @@ li a:hover{
 }
 
 /* Nav end */
+
+/* Header start */
+.header{
+    background: url(Images/pexels-nao-triponez-129207.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    text-align: center;
+    position:relative;
+
+}
+
+.main-heading{
+    position: absolute;
+    top: 7rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    
+}
+
+.primary-heading{
+    position: absolute;
+    bottom: 4rem;
+    font-size: 4rem;
+    word-spacing: 10px;
+    margin-bottom: -40
+}
+
+.main-button{
+    position: absolute;
+    bottom: 2rem;
+    padding:10px 30px;
+    margin-top: 20px;
+    background: transparent;
+    background: var(--main-color);
+    transform: translateY(60PX);
+
+}
